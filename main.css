@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #35b87fb2;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #35b87f;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: "Playfair Display", serif;
+}
+
+#about,
+#servicos {
+    background-color: #e6fff5;
+}
+
+.text-colored {
+    color: #35b87f;
+}
+
+.nav-servicos .nav-link.active,
+#agende button {
+    background-color: #35b87f;
+    color: #fff;
+}
+
+.nav-servicos .nav-link:hover {
+    color: #35b87f;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+}
